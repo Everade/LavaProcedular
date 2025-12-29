@@ -14,6 +14,10 @@ The Construct plugin is distributed as a [.c3addon file](https://www.construct.n
 > [!WARNING]
 > If you want to modify the plugin for your own purposes, it is strongly advised to **change the Construct plugin ID.** This will avoid serious compatibility problems which could result in your project becoming unopenable.
 
+## Install Instructions
+
+To install an addon in Construct 3, open the Addon Manager (Menu > View > Addon Manager). In this dialog, click "Install new addon..." and choose the .c3addon file. Construct 3 will prompt to confirm installation of the addon. If you confirm the install, you must restart Construct 3 before the addon is available. In the browser you can just press the Reload button. You can also install itby directly dragging and dropping the .c3addon file in to Construct 3.
+
 ## Examples
 
 <img width="400" height="400" alt="image01" src="https://github.com/user-attachments/assets/2effe804-caa3-4d00-88ca-2f51818048b7" /><img width="400" height="400" alt="image02" src="https://github.com/user-attachments/assets/593d52c1-dd5b-4f7b-8383-322d2d07ad31" />
