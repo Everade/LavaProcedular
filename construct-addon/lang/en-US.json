@@ -1,0 +1,42 @@
+{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for Lava Procedural.",
+	"text": {
+		"effects": {
+			"everade_lavaprocedural": {
+				"name": "Lava Procedural",
+				"description": "Procedural animated lava flow shader.",
+				"parameters": {
+					"timeOffset": {
+						"name": "timeOffset",
+						"desc": "Offset in seconds for the animation timeline."
+					},
+					"timeSpeed": {
+						"name": "timeSpeed",
+						"desc": "Multiplier controlling how fast the animation progresses."
+					},
+					"uvScale": {
+						"name": "uvScale",
+						"desc": "Scales the UV to zoom the noise pattern in or out."
+					},
+					"noiseScale": {
+						"name": "noiseScale",
+						"desc": "Controls the spatial frequency of the procedural noise."
+					},
+					"flowAngle": {
+						"name": "flowAngle",
+						"desc": "Adjusts the flow direction."
+					},
+					"color": {
+						"name": "color",
+						"desc": "Base color."
+					},
+					"contrast": {
+						"name": "contrast",
+						"desc": "Adjusts the difference between light and dark areas."
+					}
+				}
+			}
+		}
+	}
+}

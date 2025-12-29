@@ -1,0 +1,92 @@
+{
+	"is-c3-addon": true,
+	"sdk-version": 2,
+	"type": "effect",
+	"name": "Lava Procedural",
+	"id": "Everade_LavaProcedural",
+	"version": "1.0.0.0",
+	"author": "Everade",
+	"website": "https://weakspots.com",
+	"documentation": "https://www.construct.net",
+	"description": "Procedural animated lava flow shader.",
+	"file-list": [
+		"lang/en-US.json",
+		"addon.json",
+		"effect.fx",
+		"effect.webgl2.fx",
+		"effect.wgsl"
+	],
+	"supported-renderers": [
+		"webgl",
+		"webgl2",
+		"webgpu"
+	],
+	"category": "color",
+	"blends-background": false,
+	"cross-sampling": false,
+	"preserves-opaqueness": false,
+	"animated": true,
+	"is-deprecated": false,
+	"uses-depth": false,
+	"must-predraw": false,
+	"supports-3d-direct-rendering": true,
+	"extend-box": {
+		"horizontal": 0,
+		"vertical": 0
+	},
+	"parameters": [
+		{
+			"id": "timeOffset",
+			"uniform": "uniform_timeOffset",
+			"interpolatable": true,
+			"type": "float",
+			"initial-value": 0
+		},
+		{
+			"id": "timeSpeed",
+			"uniform": "uniform_timeSpeed",
+			"interpolatable": true,
+			"type": "percent",
+			"initial-value": 0.02
+		},
+		{
+			"id": "uvScale",
+			"uniform": "uniform_uvScale",
+			"interpolatable": true,
+			"type": "percent",
+			"initial-value": 0.07
+		},
+		{
+			"id": "noiseScale",
+			"uniform": "uniform_noiseScale",
+			"interpolatable": true,
+			"type": "float",
+			"initial-value": 180
+		},
+		{
+			"id": "flowAngle",
+			"uniform": "uniform_flowAngle",
+			"interpolatable": true,
+			"type": "float",
+			"initial-value": 0
+		},
+		{
+			"id": "color",
+			"uniform": "uniform_color",
+			"interpolatable": true,
+			"type": "color",
+			"initial-value": [
+				0.2,
+				0.07058823529411765,
+				0.0196078431372549
+			]
+		},
+		{
+			"id": "contrast",
+			"uniform": "uniform_contrast",
+			"interpolatable": true,
+			"type": "float",
+			"initial-value": 1.4
+		}
+	]
+}

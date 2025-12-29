@@ -1,0 +1,150 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-changing",
+					"objectClass": "SliderBar",
+					"sid": 831162988325125
+				}
+			],
+			"actions": [],
+			"sid": 613850439054936,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-tags",
+							"objectClass": "SliderBar",
+							"sid": 196151647347044,
+							"parameters": {
+								"tags": "\"timeSpeed\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Sprite",
+							"sid": 625335917583806,
+							"parameters": {
+								"effect": "\"LavaProcedural\"",
+								"parameter-index": "1",
+								"value": "SliderBar.Value"
+							}
+						}
+					],
+					"sid": 389639478568644
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-tags",
+							"objectClass": "SliderBar",
+							"sid": 164679074819266,
+							"parameters": {
+								"tags": "\"uvScale\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Sprite",
+							"sid": 506259691641572,
+							"parameters": {
+								"effect": "\"LavaProcedural\"",
+								"parameter-index": "2",
+								"value": "SliderBar.Value"
+							}
+						}
+					],
+					"sid": 906133308397829
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-tags",
+							"objectClass": "SliderBar",
+							"sid": 478011219556609,
+							"parameters": {
+								"tags": "\"noiseScale\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Sprite",
+							"sid": 322746238220618,
+							"parameters": {
+								"effect": "\"LavaProcedural\"",
+								"parameter-index": "3",
+								"value": "SliderBar.Value"
+							}
+						}
+					],
+					"sid": 171339028559974
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-tags",
+							"objectClass": "SliderBar",
+							"sid": 455463187000353,
+							"parameters": {
+								"tags": "\"flowAngle\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Sprite",
+							"sid": 233720218867685,
+							"parameters": {
+								"effect": "\"LavaProcedural\"",
+								"parameter-index": "4",
+								"value": "SliderBar.Value"
+							}
+						}
+					],
+					"sid": 126725408370271
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-tags",
+							"objectClass": "SliderBar",
+							"sid": 631820056535057,
+							"parameters": {
+								"tags": "\"contrast\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Sprite",
+							"sid": 671498400217463,
+							"parameters": {
+								"effect": "\"LavaProcedural\"",
+								"parameter-index": "6",
+								"value": "SliderBar.Value"
+							}
+						}
+					],
+					"sid": 160574490754789
+				}
+			]
+		}
+	],
+	"sid": 443686559732053
+}
