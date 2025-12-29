@@ -1,8 +1,8 @@
-# Lava Procedular for Construct 3
+# Lava Procedural for Construct 3
 
 <img width="400" height="270" alt="main_image" src="https://github.com/user-attachments/assets/42ec8695-a5e3-4406-b0be-aea67fa4d3f8" />
 
-This repository contains code for the [Lava Procedular Construct effect](https://www.construct.net/make-games/addons/1543/lava-procedural-effect). A customizable procedural fluid-motion shader. It generates dynamic swirling lava by default, but its parameters allow you to create your own unique styles, it also works great for simulating drifting smoke, and other organic effects. Configurable noise, speed, flow direction, scale, color, contrast and more options give you creative control. There are two main components in this repository:
+This repository contains code for the [Lava Procedural Construct effect](https://www.construct.net/make-games/addons/1543/lava-procedural-effect). A customizable procedural fluid-motion shader. It generates dynamic swirling lava by default, but its parameters allow you to create your own unique styles, it also works great for simulating drifting smoke, and other organic effects. Configurable noise, speed, flow direction, scale, color, contrast and more options give you creative control. There are two main components in this repository:
 
 - *construct-addon*: the Construct addon, written in GLSL/WGSL using the [Construct Addon SDK](https://github.com/Scirra/Construct-Addon-SDK)
 - *example-project*: the Construct example project, demonstrating some of the effect capabilities
@@ -16,7 +16,7 @@ The Construct plugin is distributed as a [.c3addon file](https://www.construct.n
 
 ## Download & Install Instructions
 
-Download the latest [release](https://github.com/Everade/LavaProcedular/releases). To install an addon in Construct 3, open the Addon Manager (Menu > View > Addon Manager). In this dialog, click "Install new addon..." and choose the .c3addon file. Construct 3 will prompt to confirm installation of the addon. If you confirm the install, you must restart Construct 3 before the addon is available. In the browser you can just press the Reload button. You can also install itby directly dragging and dropping the .c3addon file in to Construct 3.
+Download the latest [release](https://github.com/Everade/LavaProcedural/releases). To install an addon in Construct 3, open the Addon Manager (Menu > View > Addon Manager). In this dialog, click "Install new addon..." and choose the .c3addon file. Construct 3 will prompt to confirm installation of the addon. If you confirm the install, you must restart Construct 3 before the addon is available. In the browser you can just press the Reload button. You can also install itby directly dragging and dropping the .c3addon file in to Construct 3.
 
 ## Examples
 
